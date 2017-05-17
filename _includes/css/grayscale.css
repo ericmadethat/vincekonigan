@@ -394,6 +394,7 @@ input#mce-EMAIL {
     border: 1px solid white;
     color: white;
     background-color: #3fc13f;
+    margin-top: 15px;
 }
 .poster {
     width: 86%;
