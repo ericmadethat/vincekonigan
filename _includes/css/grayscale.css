@@ -366,12 +366,12 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 .mc-signup {
-background: -moz-linear-gradient(53deg, rgba(8,95,194,1) 0%, rgba(41,191,214,1) 100%); /* ff3.6+ */
-background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(8,95,194,1)), color-stop(100%, rgba(41,191,214,1))); /* safari4+,chrome */
-background: -webkit-linear-gradient(53deg, rgba(8,95,194,1) 0%, rgba(41,191,214,1) 100%); /* safari5.1+,chrome10+ */
-background: -o-linear-gradient(53deg, rgba(8,95,194,1) 0%, rgba(41,191,214,1) 100%); /* opera 11.10+ */
-background: -ms-linear-gradient(53deg, rgba(8,95,194,1) 0%, rgba(41,191,214,1) 100%); /* ie10+ */
-background: linear-gradient(37deg, rgba(8,95,194,1) 0%, rgba(41,191,214,1) 100%); /* w3c */
+    background: -moz-linear-gradient(45deg, rgba(38,38,38,1) 0%, rgba(92,92,92,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(38,38,38,1)), color-stop(100%, rgba(92,92,92,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(38,38,38,1) 0%, rgba(92,92,92,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(38,38,38,1) 0%, rgba(92,92,92,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(38,38,38,1) 0%, rgba(92,92,92,1) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(38,38,38,1) 0%, rgba(92,92,92,1) 100%); /* w3c */
     padding: 5rem 3rem;
     border-radius: 5px;
     margin-top: 35px;
@@ -398,4 +398,15 @@ input#mce-EMAIL {
 }
 .poster {
     width: 86%;
+}
+p.description {
+    font-size: 17px;
+}
+p.subtitle {
+    font-size: 14px;
+    color: #6f6e6e;
+}
+hr.sep {
+    margin-bottom: 40px;
+    border-top: 1px solid #393939;
 }

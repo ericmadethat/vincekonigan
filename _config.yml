@@ -1,9 +1,13 @@
 # Site settings
 title: Vince Konigan
-email: vincent_martin_999@hotmail.com
+email: info@vincekonigan.com
+# -- Dev configs: --
+# url: 
+# baseurl: /
+# --Production configs:-- 
 url: ericmadethat.com
-description: "Musicien basé à Montréal"
 baseurl: /vincekonigan
+description: "Musicien basé à Montréal"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
