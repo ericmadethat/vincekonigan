@@ -472,6 +472,10 @@ hr.sep {
     @media (max-device-width: 320px) {
       img { max-width: 319px;}
     }
+    .project-image-wrap {
+      width: 95%;
+      margin: 0 auto;
+    }
   }
   h4 {
     margin: 0;

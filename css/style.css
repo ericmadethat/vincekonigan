@@ -5677,6 +5677,9 @@ hr.sep {
     @media (max-device-width: 320px) {
       .project-row .project-mod img {
         max-width: 319px; } }
+    .project-row .project-mod .project-image-wrap {
+      width: 95%;
+      margin: 0 auto; }
   .project-row h4 {
     margin: 0;
     text-transform: none; }
